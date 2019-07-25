@@ -1,6 +1,6 @@
 # DeepLearning-TumorHypoxia
 Transfer Learning on whole slide tumor images to classify tumors as hypoxic or non-hypoxic
-For details procedure refer https://github.com/Akshina07/DeepLearning-TumorHypoxia/wiki/PROCEDURE-FOLLOWED 
+For detailed procedure refer https://github.com/Akshina07/DeepLearning-TumorHypoxia/wiki/PROCEDURE-FOLLOWED 
 
 ## BACKGROUND:
 Many primary-tumor subregions have low levels of molecular oxygen, termed hypoxia. Hypoxic tumors are at elevated risk for local failure and distant metastasis, but the molecular hallmarks of tumor hypoxia remain poorly defined. It is observed hypoxia is associated with elevated genomic instability, hypoxic tumors exhibited characteristic driver-mutation signatures and a widespread hypoxia-associated dysregulation of microRNAs (miRNAs) across cancers. Hypoxia may also be associated with elevated rates of chromothripsis, allelic loss of PTEN and shorter telomeres. Thus, tumor hypoxia may drive aggressive molecular features across cancers and shape the clinical trajectory of individual tumors. Therefore finding the correlation between cancer tumors and level of molecular oxygen can find potential targeted genes associated with hypoxia which can also be used to treat tumor types. We applied deep learning techniques like  transfer learning and deep k-means clustering to classify tumors as hypoxic or non-hypoxic on TCGA whole slide tumor type for breast cancer (BRCA)
