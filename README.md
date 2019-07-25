@@ -18,5 +18,20 @@ Labelled the patient tumor slides using pan cancer hypoxia scores (of all the si
 # TRAINING AND EVALUTION:
 Used two pre-trained models- Resnet50 and InceptionV3 for fine-tuning and feature extraction respectively. The transfer values of bottle neck values generated were used as input to a top-up model used to classify into two classes= hypoxic or non-hypoxic. The model evaluation metrics used were f1-scores, auc scores and accuracy. 
  
- 
+# REFERNCES:
+1.	https://github.com/ncoudray/DeepPATH
+2.	Nature article, Molecular landmarks of tumor hypoxia across cancer types published on 14th January 2019 (https://www.nature.com/articles/s41588-018-0318-2)
+3.	Nature article, Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning published on 17th September 2018 (https://www.nature.com/articles/s41591-018-0177-5)
+4.	Nature article, Dermatologist-level classification of skin cancer with deep neural networks published on 25th January 2017 (https://www.nature.com/articles/nature21056)
+5.	https://medium.com/@sh.tsang/review-inception-v3-1st-runner-up-image-classification-in-ilsvrc-2015-17915421f77c
+6.	https://towardsdatascience.com/understanding-and-coding-a-resnet-in-keras-446d7ff84d33
+7.	Predicting cancer outcomes from histology and genomics using convolutional networks published in PNAS on 27th March 2018 (https://www.pnas.org/content/115/13/E2970)
+8.	Structured Crowdsourcing Enables Convolutional Segmentation of Histology Images (https://www.ncbi.nlm.nih.gov/pubmed/30726865)
+9.	Precision histology: how deep learning is poised to revitalize histomorphology for personalized cancer care (https://www.nature.com/articles/s41698-017-0022-1)
+10.	 The Digital Slide Archive: A Software Platform for Management, Integration, and Analysis of Histology for Cancer Research (https://www.ncbi.nlm.nih.gov/pubmed/29092945)
+11.	Nature Review Deep learning: new computational modelling techniques for genomics (https://www.nature.com/articles/s41576-019-0122-6)
+12.	Deep learning detects virus presence in cancer histology (https://www.biorxiv.org/content/10.1101/690206v1)
+13.	https://www.learnopencv.com/keras-tutorial-transfer-learning-using-pre-trained-models/
+
+
 
